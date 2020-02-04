@@ -1,0 +1,31 @@
+Note: compile time switch is defined in "main.h" - defined as LAB2_USE_INTERRUPT
+
+Interrupts
+
+Both off: 8.53 mW
+Left button pressed: 10.26 mW
+Right button pressed: 10.25 mW
+Left slider touch: 9.98mW
+Right slider touch 10.04 mW
+Both LEDs on: 11.56 mW
+
+Polling
+
+Both off: 14.79 mW
+Left button pressed: 16.62 mW
+Right button pressed: 16.65 mW
+Left slider touch: 16.29 mW
+Right slider touch: 16.36 mW
+Both LEDs on: 17.89 mW
+
+Systick Timer frequency lowered
+
+Baseline power: 8.39 mW
+
+
+Conclusion:
+Interrupt driven LEDs draw less power when compared to polling. It averages around 6mW difference. An interesting note is that when the systick frequency is lowered, the power also lowers by about .14 mW which is not insignificant.
+
+Functional Tests:
+#6 Place finger on touch slider and slide finger to the right. Observe thatLED1 is lit
+#9 Place finger on right side of touch slider, and press button 0. Observe that LED1 is lit. then press button 1, observe that LED1 is still lit. The press both buttons, and observe that only LED1 is lit. Place a second finger on the left side of the slider and observe that both LEDs are now off.  
