@@ -34,5 +34,5 @@ emlib \
 kernel/source \
 ports/source/generic \
 ports/source/gnu \
-src \
+src/Source \
 

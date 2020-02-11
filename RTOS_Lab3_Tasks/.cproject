@@ -49,6 +49,11 @@
 									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/micrium_os/bsp/siliconlabs/generic/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/drivers&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/micrium_os/ports/source/gnu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/kernel/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/kernel/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/src/Header}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/src/Source}&quot;"/>
 								</option>
 								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.543087165" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>
@@ -80,6 +85,12 @@
 									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/micrium_os/bsp/siliconlabs/generic/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/hardware/kit/common/drivers&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/Drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/micrium_os/ports/source/gnu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/kernel/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/kernel/source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/platform/micrium_os/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/src/Header}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/RTOS_Lab3_Tasks/src/Source}&quot;"/>
 								</option>
 								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols.76585974" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="EFM32PG12B500F1024GL125=1"/>
