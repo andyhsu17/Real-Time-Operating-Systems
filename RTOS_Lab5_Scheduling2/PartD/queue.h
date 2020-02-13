@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fcfs.h"
+#include "priority.h"
 
 #ifndef __QUEUE__
 #define __QUEUE__
@@ -8,7 +8,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------
 /// @brief Structure which holds the Queue's Node information
 //----------------------------------------------------------------------------------------------------------------------------------
-struct node_t{
+struct node_t {
     // Task information
     struct task_t* task;
 
@@ -74,5 +74,15 @@ int is_empty(struct node_t** head);
 /// @param head The head of the queue
 //----------------------------------------------------------------------------------------------------------------------------------
 void empty_queue(struct node_t** head);
+
+//----------------------------------------------------------------------------------------------------------------------------------
+/// @brief Update priorities for all nodes in the queue.
+/// multiplying the priority of a node by 4 if the current execution time is equal to time
+/// multiplying the priority of a node by 2 if the left to execute time is equal to time
+///
+/// @param[in] head The head of the queue
+/// @param[in] time The current time stamp in the system
+//----------------------------------------------------------------------------------------------------------------------------------
+void update_priority(struct node_t** head, int time);
 
 #endif // __QUEUE__

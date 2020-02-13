@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fcfs.h"
+#include "sjf.h"
 
 #ifndef __QUEUE__
 #define __QUEUE__
@@ -8,7 +8,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------
 /// @brief Structure which holds the Queue's Node information
 //----------------------------------------------------------------------------------------------------------------------------------
-struct node_t{
+struct node_t {
     // Task information
     struct task_t* task;
 
