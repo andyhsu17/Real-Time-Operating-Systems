@@ -25,7 +25,6 @@
 #include "app.h"
 #include "stdbool.h"
 #include "capsense.h"
-//#include "/thunderboard/util.h"
 
 static volatile uint32_t msTicks; /* counts 1ms timeTicks */
 
